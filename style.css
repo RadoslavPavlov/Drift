@@ -1,7 +1,52 @@
 h1 {
-	background-color: green;
+	background-color:  	#C0C0C0;
 	}
 
 h2 {
-	background-color: yellow;
+	background-color:  	#A9A9A9;
 	}
+h3 {
+	background-color:   #C0C0C0;
+	}
+p {
+	background-color:   rgb(192,192,192,0.5);
+	
+	}
+
+
+
+/*body {
+background-color: green;
+  opacity: 0,3;
+}*/
+/*body {
+	background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nissan-240sx-drift-1533732882.png);
+	
+}*/
+body {
+	background-image: url(proba2.png);
+	
+}
+p {
+	color: balck;
+	
+}
+div > p {
+	text-shadow: none; 
+}
+.ramka {
+border-style: groove;
+} 
+
+a:link, a:visited {
+  color: black;
+  border-style: groove;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: none;
+  color: white;
