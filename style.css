@@ -25,6 +25,7 @@ background-color: green;
 }*/
 body {
 	background-image: url(proba2.png);
+	padding-top: 40px;
 	
 }
 p {
@@ -36,17 +37,24 @@ div > p {
 }
 .ramka {
 border-style: groove;
+margin-left: 10px;
 } 
-
-a:link, a:visited {
-  color: black;
-  border-style: groove;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.ramka1 {
+border-style: groove;
 }
 
-a:hover, a:active {
-  background-color: none;
-  color: white;
+
+
+li {
+background-color:   rgb(192,192,192,0.5);
+}
+.modal .overlay ~ * > *, .card > * {
+	width: 100%;
+}
+nav {
+background-color: grey;
+ position: absolute;
+}
+img {
+	height: 100%;
+	}
