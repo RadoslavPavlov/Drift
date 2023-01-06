@@ -1,17 +1,30 @@
 h1 {
-	background-color:  	#C0C0C0;
-	}
+	background-color:  	#C0C0C0;	
+   font-family: 'BebasNeueRegular';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 50px;
+}
 
 h2 {
 	background-color:  	#A9A9A9;
-	}
+	   font-family: 'BebasNeueRegular';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 35px;
+}
+
 h3 {
 	background-color:   #C0C0C0;
-	}
+	   font-family: 'BebasNeueRegular';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 35px;
+}
+
 p {
 	background-color:   rgb(192,192,192,0.5);
-	
-	}
+}
 
 
 
@@ -25,36 +38,43 @@ background-color: green;
 }*/
 body {
 	background-image: url(proba2.png);
-	padding-top: 40px;
-	
+	padding-top: 40px;	
 }
+
 p {
 	color: balck;
-	
 }
 div > p {
 	text-shadow: none; 
+	
 }
 .ramka {
-border-style: groove;
-margin-left: 10px;
+	border-style: groove;
+	margin-left: 10px;
 } 
+
 .ramka1 {
-border-style: groove;
+	border-style: groove;
 }
-
-
 
 li {
-background-color:   rgb(192,192,192,0.5);
+	background-color:   rgb(192,192,192,0.5);
 }
+
 .modal .overlay ~ * > *, .card > * {
-	width: 100%;
+	width: 100%;	
 }
+
 nav {
-background-color: grey;
- position: absolute;
+	background-color: grey;
+ 	position: absolute;
 }
+
 img {
 	height: 100%;
-	}
+}
+p {
+   font-family: 'HezaedrusRegular';
+   font-weight: normal;
+   font-style: normal;
+} 
