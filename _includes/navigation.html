@@ -1,0 +1,17 @@
+<nav>
+  	<a href="index.html" class="brand">
+    <img class="logo" src="ADVAN-A052-3QL-Web_2020-12-19-060522.png" />
+   	<span>{{page.title}}</span>
+  	</a>
+
+  	<input id="bmenub" type="checkbox" class="show">
+  	<label for="bmenub" class="burger pseudo button">menu</label>
+
+  		<div class="menu">
+    		<a href="history.html" class="{% if page.name != 'history.html' %} pseudo button {% endif %} " >History</a>
+    		<a href="drift_competition.html" class="{% if page.name != 'drift_competition.html' %} pseudo button{% endif %} " >Drift competition</a>
+    		<a href="drift_cars.html" class="{% if page.name != 'drift_cars.html' %} pseudo button{% endif %} " >Drift cars</a>
+    		<a href="drift_tuning.html" class="{% if page.name != 'drift_tuning.html' %} pseudo button{% endif %} " >Drift tuning</a>
+  		</div>
+</nav>
+<h1>{{ page.name }}</h1>
